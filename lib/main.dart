@@ -93,7 +93,7 @@ class _HomeState extends State<Home> {
                 case ConnectionState.waiting:
                   return Center(
                       child: Text(
-                    "Carregando Dados...",
+                    "Loading files...",
                     style: TextStyle(
                       color: Colors.amber,
                       fontSize: 25,
